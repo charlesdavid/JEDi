@@ -1,0 +1,79 @@
+	/* ************************************************* MAIN **************************************************************************** */
+
+	public static void main(String[] args)
+		{
+			directory = "C:\\Users\\Charles\\git\\JED\\test\\Single\\PDBs\\";
+			pdb_ref_file = "1A6N.pdb";
+			rl_SS = "residues.txt";
+
+			JED_PDB_Process rpdbp = new JED_PDB_Process(directory, pdb_ref_file, rl_SS);
+
+			System.out.println("Reading Reference PDB file: ");
+			rpdbp.read_Reference_PDB();
+			System.out.println("Atom count from Vector ref_atoms: " + ref_atoms.size());
+			System.out.println("CA count from Vector ref_atoms_CA: " + ref_atoms_CA.size());
+
+			System.out.println("Getting original_PDB_coordinates Matrix: ");
+			rpdbp.get_Original_PDB_Coords();
+			System.out.println("original_PDB_coordinates ROWS: " + original_PDB_coordinates.getRowDimension());
+			System.out.println("original_PDB_coordinates COLS: " + original_PDB_coordinates.getColumnDimension());
+
+			System.out.println("Getting original_PDB_coordinates_CA Matrix: ");
+			System.out.println("original_PDB_coordinates_CA ROWS: " + original_PDB_coordinates_CA.getRowDimension());
+			System.out.println("original_PDB_coordinates_CA COLS: " + original_PDB_coordinates_CA.getColumnDimension());
+
+			System.out.println("Reading Residue List file: ");
+			rpdbp.read_residue_list_Single();
+			System.out.println("Number of residues in Original list: " + residue_list_original.size());
+			for (int i : residue_list_original)
+				{
+					System.out.println(i);
+				}
+			System.out.println("Number of residues in adjusted list: " + residue_list.size());
+			for (int i : residue_list)
+				{
+					System.out.println(i);
+				}
+
+			System.out.println("Getting Single All Atom Subset as a Vector of Atoms: ");
+			Vector<Atom> test = rpdbp.get_Reference_Subset_Single(atoms, residue_list_original);
+			System.out.println("Number of Atoms in Subset: " + test.size());
+			System.out.println("Getting Subset PDB_Coords as a Matrix: ");
+			Matrix ss = rpdbp.get_Cartesian_PDB_Coords(test);
+			System.out.println("Rows: " + ss.getRowDimension());
+			System.out.println("Cols: " + ss.getColumnDimension());
+			ss.print(9, 3);
+
+			System.out.println("Getting Single CA Subset as a Vector of Atoms: ");
+			Vector<Atom> test_CA = rpdbp.get_Reference_Subset_Single(atoms_CA, residue_list_original);
+			System.out.println("Number of Atoms in CA Subset: " + test_CA.size());
+			System.out.println("Getting Subset PDB_Coords as a Matrix: ");
+			Matrix ss_CA = rpdbp.get_Cartesian_PDB_Coords(test_CA);
+			System.out.println("Rows: " + ss_CA.getRowDimension());
+			System.out.println("Cols: " + ss_CA.getColumnDimension());
+			ss_CA.print(9, 3);
+
+			System.out.println("Getting Residue PDB_Coords as a List of Matrices: ");
+			List<Matrix> rc = rpdbp.get_Residue_Coords(original_PDB_coordinates, number_of_Atoms_in_Residues);
+			System.out.println("Number of residues: " + rc.size());
+			for (Matrix m : rc)
+				{
+					System.out.println("Number of atoms: " + m.getRowDimension() / 3);
+					System.out.println("Number of conformations: " + m.getColumnDimension());
+					m.print(9, 3);
+				}
+
+			System.out.println("Getting Cartesian Subset CA Coords as a Matrix: ");
+			Matrix ss_ca = rpdbp.get_subset_Cartesian_Coords_CA(original_PDB_coordinates_CA, residue_list);
+			System.out.println("Rows: " + ss_ca.getRowDimension());
+			System.out.println("Cols: " + ss_ca.getColumnDimension());
+			ss_ca.print(9, 3);
+
+			System.out.println("Getting Cartesian Subset All Atom Coords as a Matrix: ");
+			Matrix ss_aa = rpdbp.get_subset_Cartesian_Coords_All_Atom(Residue_Coords_List, residue_list, number_of_Atoms_in_Residues);
+			System.out.println("Rows: " + ss_aa.getRowDimension());
+			System.out.println("Cols: " + ss_aa.getColumnDimension());
+			ss_aa.print(9, 3);
+
+		}
+
