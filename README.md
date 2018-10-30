@@ -1,3 +1,4 @@
+## JEDi: Java Essential Dynamics Inspector
 ### JEDi 1.0 RELEASE NOTES: This is the new and updated version of JED 1.0
 
 * JEDi is a powerful tool for examining the dynamics of proteins from trajectories derived from MD or Geometric simulations, or NMA.
@@ -9,12 +10,12 @@
 	* Distance-Pair
 * There are three statistical models: COV, CORR, and PCORR, for the Cartesian and Distance-Pair PCA.
 * The idea behind the development of JEDi was to not only analyze a trajectory, but also compare it to other dynamical analyses.
-* To do this, JED uses subspace analysis to assess the similarity of essential vector spaces defined by each dynamical method.
-* Additionally, JED computes the Free Energy of a trajectory from two Order Parameters (weighted DVPs) so that a FE surface can be constructed.
-* Finally, JED produces PDB frames and script files for viewing movies in PyMol(TM) of both individual PCA modes and a superposition of Essential Modes.
+* To do this, JEDi uses subspace analysis to assess the similarity of essential vector spaces defined by each dynamical method.
+* Additionally, JEDi computes the Free Energy of a trajectory from two Order Parameters (weighted DVPs) so that a FE surface can be constructed.
+* Finally, JEDi produces PDB frames and script files for viewing movies in PyMol(TM) of both individual PCA modes and a superposition of Essential Modes.
 
 
-### Thank you for using JEDi software:  
+### Thank you for using JED and JEDi software:  
 
 * Please report bugs by submitting a new issue tagged with BUG:  
 	* Be sure to provide enough data to reproduce the error  
