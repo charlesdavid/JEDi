@@ -1,12 +1,13 @@
 ### JEDi 1.0 RELEASE NOTES: This is the new and updated version of JED 1.0
 
 * JEDi is a powerful tool for examining the dynamics of proteins from trajectories derived from MD or Geometric simulations, or NMA.
-* Currently, there are five types of PCA:
+* There are five types of PCA:
 	* Residue / Hierarchical
 	* Cartesian All-Atom
 	* Cartesian Heavy-Atom
 	* Cartesian Alpha-Carbon
-	* Distance-Pair and Cartesian, and three models: COV, CORR, and PCORR.
+	* Distance-Pair
+* There are three statistical models: COV, CORR, and PCORR, for the Cartesian and Distance-Pair PCA.
 * The idea behind the development of JEDi was to not only analyze a trajectory, but also compare it to other dynamical analyses.
 * To do this, JED uses subspace analysis to assess the similarity of essential vector spaces defined by each dynamical method.
 * Additionally, JED computes the Free Energy of a trajectory from two Order Parameters (weighted DVPs) so that a FE surface can be constructed.
