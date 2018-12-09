@@ -1,5 +1,6 @@
 ## JEDi: Java Essential Dynamics Inspector
 ### JEDi 1.0 RELEASE NOTES: This is the new and updated version of JED 1.0
+##### Now in Alpha Testing! Contact us if you wish to be a testor!
 
 * JEDi is a powerful tool for examining the dynamics of proteins from trajectories derived from MD or Geometric simulations, or NMA.
 * There are 4 Levels of Coarse-Graining:
@@ -51,9 +52,12 @@ Charles David: ccdavid@protonmail.com
 
 ##### Last Update: December, 2018
 * New Features
+     * Input file: Now a list of KEY=VALUE pairs
+     * Kernel PCA classes implemented
+     * Integration with JFreeChart for plotting scatterplots
+     * Updated the Free Energy classes for speedier calculation of FEs
+     
 * New JavaDocs
 * New Jars
 * Major BUG fixes
-* Added KPCA, PLOT_XY, and FES to new JEDi Driver
-* Created new input file: Now a list of KEY=VALUE pairs
-* Fixed the visualization class to handle the 4 levels of coarse graining
+     * Fixed the visualization class to handle the 4 levels of coarse graining
