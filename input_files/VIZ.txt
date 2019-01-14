@@ -1,0 +1,87 @@
+7
+****************************************************************************************************************************
+1     1     3.0     .05     .05     100     5     0     CORR
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/ss_151_RMSF_edited.pdb
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_eigenvalues_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_eigenvectors_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_modes_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MAXES_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MINS_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/VIZ_TEST1/
+****************************************************************************************************************************
+1     2     3.0     .05     .05     100     5     0     CORR
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/ss_151_RMSF_edited.pdb
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_eigenvalues_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_eigenvectors_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_modes_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MAXES_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MINS_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/VIZ_TEST2/
+****************************************************************************************************************************
+1     3     3.0     .05     .05     100     5     0     CORR
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/ss_151_RMSF_edited.pdb
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_eigenvalues_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_eigenvectors_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_modes_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MAXES_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MINS_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/VIZ_TEST3/
+****************************************************************************************************************************
+1     4     3.0     .05     .05     100     5     0     CORR
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/ss_151_RMSF_edited.pdb
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_eigenvalues_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_eigenvectors_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_modes_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MAXES_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MINS_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/VIZ_TEST4/
+****************************************************************************************************************************
+1     5     3.0     .05     .05     100     5     0     CORR
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/ss_151_RMSF_edited.pdb
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_eigenvalues_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_eigenvectors_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_modes_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MAXES_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MINS_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/VIZ_TEST5/
+****************************************************************************************************************************
+1     10     3.0     .05     .05     100     5     0     CORR
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/ss_151_RMSF_edited.pdb
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_eigenvalues_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_eigenvectors_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_modes_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MAXES_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MINS_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/VIZ_TEST6/
+****************************************************************************************************************************
+1     20     3.0     .05     .05     100     5     1     CORR
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/ss_151_RMSF_edited.pdb
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_eigenvalues_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_eigenvectors_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_modes_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MAXES_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/ss_151_top_20_square_pca_mode_MINS_CORR.txt
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/VIZ_TEST7/
+****************************************************************************************************************************
+
+
+
+
+
+File Format:
+
+$Number_of_Jobs
+********************************************************************************************************************************************************
+$start_mode     $num_modes_viz     $mode_amplitutude     $threshold_low     $threshold_high     $num_frames     $num_cycles     $do_individual     $type
+$ref_PDB
+$eigenvalues
+$eigenvectors
+$sq_modes
+$mode_maxes
+$mode_mins
+$out_dir
+********************************************************************************************************************************************************
+
+
+Note: Separator lines "*****" are NOT optional!
+

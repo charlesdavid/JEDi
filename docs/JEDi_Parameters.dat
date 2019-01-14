@@ -1,0 +1,54 @@
+# --------------------------------------------------------------------------------------------------------------------------------------
+#     DIRECTORY, DESCRIPTION, REFERENCE_PDB
+# --------------------------------------------------------------------------------------------------------------------------------------
+DIRECTORY=C:\Users\workspace\JEDi\test\     ----->     Working directory, ends with File.separator.char (\ or /)
+DESCRIPTION=TEST                            ----->     Description
+REFERENCE_PDB=1ERM_TEM1.cleaned.pdb         ----->     The name of the PDB reference file (must be in the working directory)
+# --------------------------------------------------------------------------------------------------------------------------------------
+#     LOGICAL SWITCHES
+# --------------------------------------------------------------------------------------------------------------------------------------
+doREAD=false            ----->     Set to true when doing a PreProcessing run ONLY
+doMULTI=false           ----->     Set to true for Multi-Chain PDB files (each chain ID must be unique and non-empty)
+doCARTESIAN=true        ----->     Set this to true to perform the Cartesian Based Analysis
+doDISPLACEMENT=true     ----->     Set this to true to perform the Displacement Based Analysis
+doCORR=true             ----->     Set this to true to perform the Correlation PCA models
+doPCORR=false           ----->     Set this to true to perform the partial correlation PCA models
+doREDUCE=false          ----->     Set this to true to perform the matrix reductions of the PCA C-matrices
+doKPCA=false            ----->     Set this to true to perform kernel PCA analysis using the top weighted DVPs or PCs
+doFES=false             ----->     Set this to true to calculate Free Energy Surface files using the top two normed DVPs or PCs
+doModeViz=false         ----->     Set this to true to Visualize the Individual Component PCA modes in addition to the Essential Modes
+doPLOT=true             ----->     Set this to true to Plot the top two DVPs or PCs and save as PNG files
+# --------------------------------------------------------------------------------------------------------------------------------------
+#     NUMBER OF MODES
+# --------------------------------------------------------------------------------------------------------------------------------------
+NUMBER_OF_MODES_LOCAL=0                 ----->     The number of modes for the Local Alignment Residue analysis
+NUMBER_OF_MODES_HIERARCHICAL_AA=9       ----->     The number of modes for the All-Atom Hierarchical analysis
+NUMBER_OF_MODES_HIERARCHICAL_HA=6       ----->     The number of modes for the Heavy Atom Hierarchical analysis
+NUMBER_OF_MODES_ALL_ATOM=5              ----->     The number of modes for the All-Atom Cartesian and/or Displacement analysis
+NUMBER_OF_MODES_HEAVY_ATOM=5            ----->     The number of modes for the Heavy-Atom Cartesian and/or Displacement analysis
+NUMBER_OF_MODES_BACKBONE=5              ----->     The number of modes for the Backbone-Atom Cartesian and/or Displacement analysis
+NUMBER_OF_MODES_ALPHA_CARBON=5          ----->     The number of modes for the Alpha-Carbon Cartesian and/or Displacement analysis
+NUMBER_OF_MODES_DISTANCE_PAIRS=0        ----->     The number of modes for the Distance Pair analysis
+NUMBER_OF_MODES_VIZ=3                   ----->     The number of modes to use for visualizing the Essential modes and Individual modes
+# --------------------------------------------------------------------------------------------------------------------------------------
+#     RESIDUE LISTS (These files must be in the working directory)
+# --------------------------------------------------------------------------------------------------------------------------------------
+RESIDUE_LIST_ALL_ATOM=residues10.txt               ----->     The residue list file name for the All-Atom analysis
+RESIDUE_LIST_HEAVY_ATOM=residues10.txt             ----->     The residue list file name for the Heavy-Atom analysis
+RESIDUE_LIST_BACKBONE=residues10.txt               ----->     The residue list file name for the Backbone analysis
+RESIDUE_LIST_ALPHA_CARBON=residues10.txt           ----->     The residue list file name for the Alpha-Carbon analysis
+RESIDUE_LIST_LOCAL=residues5.txt                   ----->     The residue list file name for the Local Residue analysis
+RESIDUE_LIST_HIERARCHICAL_AA=residues10.txt        ----->     The residue list file name for the Global All-Atom Hierarchical analysis
+RESIDUE_LIST_HIERARCHICAL_HA=residues10.txt        ----->     The residue list file name for the Global Heavy-Atom Hierarchical analysis
+ATOM_PAIRS_LIST=atom_pairs.txt                     ----->     The atom pairs list file name for the Distance-Pair analysis
+# --------------------------------------------------------------------------------------------------------------------------------------
+#     PCA and VIZ SETTINGS
+# --------------------------------------------------------------------------------------------------------------------------------------
+Z_SCORE_CUTOFF=3.000                  ----->     The z-score cutoff to use for removing variable outliers (use 0.00 to disable this feature)
+STABILITY_THRESHOLD=1.000E-12         ----->     The stability threshold for small numbers in the covariance matrix (use 0.00 to disable this feature)
+VIZ_MODE_SCALE_FACTOR=0.250           ----->     The mode amplitude scale factor to use in the mode visualizations (suggest values near 0.25)
+# --------------------------------------------------------------------------------------------------------------------------------------
+#     ALL-ATOM COORDS FILE (This file must be in the working directory)
+# --------------------------------------------------------------------------------------------------------------------------------------
+ORIGINAL_PDB_COORDS=original_PDB_Coordinates_AA.txt       ----->     The name of the all-atom PDB coordinates file from the PreProcessing step
+# --------------------------------------------------------------------------------------------------------------------------------------

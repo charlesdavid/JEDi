@@ -1,21 +1,54 @@
+# ------------------------------------------------------------
+#     DIRECTORY, DESCRIPTION, REFERENCE_PDB
+# ------------------------------------------------------------
+DIRECTORY=C:\Users\Charles\workspace\JEDi\test\BL\
+DESCRIPTION=TEST_Single_10B
+REFERENCE_PDB=1ERM_TEM1.cleaned.pdb
+# ------------------------------------------------------------
+#     LOGICAL SWITCHES
+# ------------------------------------------------------------
 doREAD=false
 doMULTI=false
-DIRECTORY=C:\Users\Charles\workspace\JEDi\test\Single\
-DESCRIPTION=TEST_NEW_5
-REFERENCE_PDB=1A6N.pdb
-Z_SCORE_CUTOFF=0.00
-NUMBER_OF_MODES_HIERARCHCAL=10
-NUMBER_OF_MODES_ALL_ATOM_CARTESIAN=10
-NUMBER_OF_MODES_HEAVY_ATOM_CARTESIAN=10
-NUMBER_OF_MODES_ALPHA_CARBON_CARTESIAN=10
+doCARTESIAN=true
+doDISPLACEMENT=true
+doCORR=true
+doPCORR=false
+doREDUCE=false
+doKPCA=true
+doFES=false
+doModeViz=false
+doPLOT=true
+# ------------------------------------------------------------
+#     NUMBER OF MODES
+# ------------------------------------------------------------
+NUMBER_OF_MODES_LOCAL=0
+NUMBER_OF_MODES_HIERARCHICAL_AA=9
+NUMBER_OF_MODES_HIERARCHICAL_HA=6
+NUMBER_OF_MODES_ALL_ATOM=5
+NUMBER_OF_MODES_HEAVY_ATOM=5
+NUMBER_OF_MODES_BACKBONE=5
+NUMBER_OF_MODES_ALPHA_CARBON=5
 NUMBER_OF_MODES_DISTANCE_PAIRS=0
-NUMBER_OF_MODES_VIZ=5
-VIZ_MODE_AMPLITUDE=2.0
-RESIDUE_LIST_ALL_ATOM=residues_AA.txt
-RESIDUE_LIST_HEAVY_ATOM=residues_AA.txt
-RESIDUE_LIST_ALPHA_CARBON=residues_AA.txt
-RESIDUE_LIST_HIERARCHICAL=residues_AA.txt
+NUMBER_OF_MODES_VIZ=3
+# ------------------------------------------------------------
+#     RESIDUE LISTS
+# ------------------------------------------------------------
+RESIDUE_LIST_ALL_ATOM=residues10.txt
+RESIDUE_LIST_HEAVY_ATOM=residues10.txt
+RESIDUE_LIST_BACKBONE=residues10.txt
+RESIDUE_LIST_ALPHA_CARBON=residues10.txt
+RESIDUE_LIST_LOCAL=residues5.txt
+RESIDUE_LIST_HIERARCHICAL_AA=residues10.txt
+RESIDUE_LIST_HIERARCHICAL_HA=residues10.txt
 ATOM_PAIRS_LIST=atom_pairs.txt
-ORIGINAL_COORDS_ALL_ATOM=original_PDB_Coordinates_AA.txt
-ORIGINAL_COORDS_HEAVY_ATOM=original_PDB_Coordinates_HA.txt
-ORIGINAL_COORDS_ALPHA_CARBONS=original_PDB_Coordinates_CA.txt
+# ------------------------------------------------------------
+#     PCA and VIZ SETTINGS
+# ------------------------------------------------------------
+Z_SCORE_CUTOFF=3.000
+STABILITY_THRESHOLD=1.000E-12
+VIZ_MODE_SCALE_FACTOR=0.250
+# ------------------------------------------------------------
+#     ALL-ATOM COORDS FILE
+# ------------------------------------------------------------
+ORIGINAL_PDB_COORDS=original_PDB_Coordinates_AA.txt
+# ------------------------------------------------------------

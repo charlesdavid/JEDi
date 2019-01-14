@@ -1,0 +1,42 @@
+3
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/FES/
+Test_FES
+******************************************************************************************************
+Test_1
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/
+ss_151_top_20_weighted_DVPs_CORR.txt
+1     2     2000     0     0
+******************************************************************************************************
+Test_2
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/
+ss_151_top_20_weighted_DVPs_CORR.txt
+1     3     2000     0     0
+******************************************************************************************************
+Test_3
+/workspace/cflcyd/git/JED/test/Single/JED_RESULTS_TEST_SINGLE/cPCA/CORR/
+ss_151_top_20_weighted_DVPs_CORR.txt
+2     3     2000     0     0
+******************************************************************************************************
+
+
+
+
+File Format:
+
+
+$num_jobs --> (repeat job declaration $num_jobs times)
+$out_dir
+$batch_description
+****************************************************
+$job_description
+$directory
+$delta_vectors
+$op1     $op2     $num_points     $offset     $size
+****************************************************
+
+
+
+Set $size = 0 to determine grid cellsize automatically using the Max(Range X, Range Y)/256 (Recommended)
+Decreasing cellsize will increase computation time ~O(n^2)
+Note: Separator lines "****" are NOT optional!
+

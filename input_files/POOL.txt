@@ -1,0 +1,16 @@
+2
+*********************************************************************************************************
+3
+Myoglobin1
+C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\
+C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
+C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
+C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
+*********************************************************************************************************
+3
+Myoglobin2
+C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\
+C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
+C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
+C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
+*********************************************************************************************************

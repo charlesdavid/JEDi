@@ -1,0 +1,20 @@
+
+
+File Format:
+
+
+$num_jobs --> (repeat job declaration $num_jobs times)
+$output_directory
+$batch_description
+*********************************************************
+$job_description
+$path/to/eigenvector_file1
+$path/to/eigenvector_file2
+*********************************************************
+
+
+
+Note: Separator lines "*****" are NOT optional!
+
+Ensure that the matrices are equidimensional...
+
