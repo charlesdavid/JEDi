@@ -6,7 +6,7 @@
 * There are 4 Levels of Coarse-Graining:
 	* All-Atom
 	* Heavy-Atom
-	* BackkBone
+	* Back-Bone
 	* Alpha-Carbon
 * There are 4 Types of PCA:
 	* Hierarchical
@@ -19,11 +19,13 @@
 	* Partial-Correlation
 * Kernel PCA post-processing of the reduced data is available, using an assortment of kernels including:
      * Mutual Information
-     * Neural-Net
+     * Neural-Net (Tanh)
      * Gaussian
+     * Log
+     * Circular
+     * Mahalanobis
      * Euclidean
-     * Polynomial Degrees 2, 3, 4, Difference of Cubes, Difference of Squares
-     * Sine-Cosine
+     * Polynomial Degrees 2, 3, 4, and cross XY
      * Linear
 * NEW: JEDi creates PNG images of the scatterplots of the top two PCs or DVPs for every analysis, making the review of results simple.
 * NEW: JEDi uses subspace analysis to assess the similarity of essential vector spaces defined by each dynamical method:
