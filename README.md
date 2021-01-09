@@ -1,22 +1,41 @@
 ## JEDi: Java Essential Dynamics Inspector
-### JEDi 1.0 RELEASE NOTES: This is the new and updated version of JED 1.0
-##### Now in Alpha Testing! Contact us if you wish to be a testor!
+### JEDi RELEASE NOTES: JEDi is the updated version of JED
+##### Beta Testing Completed
+##### Now in release 1.0
 
-* JEDi is a powerful tool for examining the dynamics of proteins from trajectories derived from MD or Geometric simulations, or NMA.
-* There are 4 Levels of Coarse-Graining:
-	* All-Atom
-	* Heavy-Atom
-	* Back-Bone
-	* Alpha-Carbon
+* JEDi is a powerful tool for inspecting the dynamics of proteins from trajectories derived from MD or Geometric simulations, or NMA.
+* All JEDi features are controlled via an input file containing a list of KEY=VALUE pairs
+* There are 5 Levels of Coarse-Graining:
+	* All-Atom by residue
+	* Heavy-Atom by residue
+	* Back-Bone by residue
+	* Alpha-Carbon by residue
+	* Atom List
 * There are 4 Types of PCA:
-	* Hierarchical
-	* Cartesian
-	* Displacement
+	* Hierarchical Cartesian
+	* Direct Cartesian
 	* Distance-Pair
+	* Residue Pair Interaction
 * There are 3 PCA Models:
 	* Covariance
 	* Correlation
 	* Partial-Correlation
+* There is the option to perform Outlier Processing:
+	* Outliers Removal is perfomed at a specified cutoff
+	* Outliers Selection is perfomed at a specified cutoff
+	* The results of outlier removal and selection are compared
+* There is the option to perform Sparsification of the Correlation and Partial Correlation Matrices:
+	* Separate cutoffs are provided for each matrix
+	* When both Correlation and Partial Correlation models are selected, an adjacency matrix is provided to help identify activator and suppressor variables
+	* The results of sparse and non-sparse analyses are compared
+* All JEDi output is provided as high quality PNG images for immediate inspection:
+        * PCs and DVPs
+	* Square Modes
+	* Scree Plots
+	* Variable statistics
+	* MSA scores
+	* Eigenvector Collectivity
+	* Iterated RMSIPs with comparison to random and with Z-scores for significance
 * Kernel PCA post-processing of the reduced data is available, using an assortment of kernels including:
      * Mutual Information
      * Neural-Net (Tanh)
@@ -27,15 +46,14 @@
      * Euclidean
      * Polynomial Degrees 2, 3, 4, and cross XY
      * Linear
-* NEW: JEDi creates PNG images of the scatterplots of the top two PCs or DVPs for every analysis, making the review of results simple.
-* NEW: JEDi uses subspace analysis to assess the similarity of essential vector spaces defined by each dynamical method:
+* JEDi uses subspace analysis to assess the similarity of essential vector spaces defined by each dynamical method:
      * Inter-Model within each type of PCA
      * Inter-Type when subsets yield subspaces with matching dimensions
-* Additionally, JEDi computes the Free Energy of a trajectory from two PCs (normed projections) so that a FE surface can be constructed.
-* Finally, JEDi produces PDB frames and script files for viewing the frames in PyMol(TM) as movies:
+* JEDi computes the Free Energy of a trajectory from two PCs (normed projections) so that a FE surface can be constructed.
+* JEDi produces PDB frames that capture the PCA modes and script files for viewing those frames in PyMol(TM) as movies:
      * Individual modes
-     * The superposition of the Top Essential Modes.
-
+     * The superposition of the Top Essential Modes
+* For each JEDi run, a comprehensive log file is generated with time stamp recoding the parameters and key results of each analysis
 
 ### Thank you for using JED and JEDi software:
 
@@ -50,16 +68,8 @@
 
 * Please contact me if you wish to become a collaborator on this software:  
 
-Charles David: ccdavid@protonmail.com  
+Charles David: charles.david@plantandfood.co.nz 
 
-##### Last Update: December, 2018
-* New Features
-     * Input file: Now a list of KEY=VALUE pairs
-     * Kernel PCA classes implemented
-     * Integration with JFreeChart for plotting scatterplots
-     * Updated the Free Energy classes for speedier calculation of FEs
-     
-* New JavaDocs
-* New Jars
-* Major BUG fixes
-     * Fixed the visualization class to handle the 4 levels of coarse graining
+##### Last Update: December, 2020
+* New Java Docs
+* New executable JAR files
