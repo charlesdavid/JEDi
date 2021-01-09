@@ -58,7 +58,7 @@
 ### Thank you for using JED and JEDi software:
 
 ###### https://github.com/charlesdavid/JED
-###### https://github.com/charlesdavid/JEDi (new source code will be available upon submission of our paper)
+###### https://github.com/charlesdavid/JEDi
 
 * Please report bugs by submitting a new issue tagged with BUG:  
      * Be sure to provide enough data to reproduce the error  
