@@ -28,7 +28,7 @@
 	* Separate cutoffs are provided for each matrix
 	* When both Correlation and Partial Correlation models are selected, an adjacency matrix is provided to help identify activator and suppressor variables
 	* The results of sparse and non-sparse analyses are compared
-* All JEDi output is provided as high quality PNG images for immediate inspection:
+* All JEDi output is provided as high quality PNG images for immediate inspection:  
         * PCs and DVPs
 	* Square Modes
 	* Scree Plots
