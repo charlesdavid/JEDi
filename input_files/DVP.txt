@@ -1,0 +1,33 @@
+1
+C:\Users\cflcyd\eclipse-workspace\JEDi_Release2\test\BL\
+BL_Test_HAA
+Test_2_Residues
+C:\Users\cflcyd\eclipse-workspace\JEDi_Release2\test\BL\POOLED_MD_FRODA_TEM1_TEM52\OmegaLoop\JEDi_RESULTS_Test_HAA\Cartesian_All_Atom_PCA\     ss_24_delta_vectors.txt
+C:\Users\cflcyd\eclipse-workspace\JEDi_Release2\test\BL\POOLED_MD_FRODA_TEM1_TEM52\OmegaLoop\JEDi_RESULTS_Test_HAA2\All_Atom_Hierarchical_Cartesian_PCA\     ss_2_top_72_Convoluted_Eigenvectors.txt
+C:\Users\cflcyd\eclipse-workspace\JEDi_Release2\test\BL\POOLED_MD_FRODA_TEM1_TEM52\OmegaLoop\JEDi_RESULTS_Test_HAA2\All_Atom_Hierarchical_Cartesian_PCA\     ss_2_eigenvalues_COV.txt
+*********************************************************
+
+
+
+
+
+
+
+File Format:
+
+
+$num_jobs --> (repeat job declaration $num_jobs times)
+$output_directory
+$batch_description
+*********************************************************
+$job_description
+$path/to/eigenvector_file1
+$path/to/eigenvector_file2
+*********************************************************
+
+
+
+Note: Separator lines "*****" are NOT optional!
+
+Ensure that the matrices are equidimensional...
+

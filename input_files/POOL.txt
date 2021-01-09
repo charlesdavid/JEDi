@@ -1,16 +1,7 @@
-2
-*********************************************************************************************************
-3
-Myoglobin1
-C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\
-C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
-C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
-C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
-*********************************************************************************************************
-3
-Myoglobin2
-C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\
-C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
-C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
-C:\\Users\\Charles\\workspace\\JED_2.0\\JED_Test\\Single\\original_PDB_Coordinates.txt
-*********************************************************************************************************
+4	true
+TEST_compress_WB90000	true	10
+C:\Users\cflcyd\eclipse-workspace\JEDi_Dev\test\ICS\
+C:\Users\cflcyd\eclipse-workspace\JEDi_Dev\test\ICS\TEM1\FIRST\ss_260_4025_Hierarchical_All_Atom_Aligned_Coordinates.txt.bz2	3	10002
+C:\Users\cflcyd\eclipse-workspace\JEDi_Dev\test\ICS\TEM1\MD\ss_260_4025_Hierarchical_All_Atom_Aligned_Coordinates.txt.bz2		1	10000
+C:\Users\cflcyd\eclipse-workspace\JEDi_Dev\test\ICS\TEM52\FIRST\ss_260_4025_Hierarchical_All_Atom_Aligned_Coordinates.txt.bz2	3	10002
+C:\Users\cflcyd\eclipse-workspace\JEDi_Dev\test\ICS\TEM52\MD\ss_260_4025_Hierarchical_All_Atom_Aligned_Coordinates.txt.bz2		1	10000

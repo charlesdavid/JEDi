@@ -1,54 +1,172 @@
-# ------------------------------------------------------------
+#     Lines beginning with "#" or "-" are COMMENTS  
+--------------------------------------------------------------
 #     DIRECTORY, DESCRIPTION, REFERENCE_PDB
-# ------------------------------------------------------------
-DIRECTORY=C:\Users\Charles\workspace\JEDi\test\BL\
-DESCRIPTION=TEST_Single_10B
-REFERENCE_PDB=1ERM_TEM1.cleaned.pdb
-# ------------------------------------------------------------
-#     LOGICAL SWITCHES
-# ------------------------------------------------------------
-doREAD=false
-doMULTI=false
-doCARTESIAN=true
-doDISPLACEMENT=true
-doCORR=true
+--------------------------------------------------------------
+DIRECTORY=C:\Users\cflcyd\eclipse-workspace\JEDi_Release\test\BL\POOLED_MD_FRODA_TEM1_TEM52\MechanisticSite\
+DESCRIPTION=Test_SSA
+REFERENCE_PDB=ss_5_81_Hierarchical_AA_RMSF_edited.pdb
+--------------------------------------------------------------
+#     PRE-PROCESSING
+--------------------------------------------------------------
+doPREPROCESS=false
+doParityCheck=false
+--------------------------------------------------------------
+doREAD_ARCHIVE=false
+ARCHIVE_NAME=archive.zip
+--------------------------------------------------------------
+#     COORDINATES FILE
+--------------------------------------------------------------
+ORIGINAL_PDB_COORDS=ss_5_81_All_Atom_Aligned_Coordinates.txt.bz2
+--------------------------------------------------------------
+#     OUTLIER PROCESSING
+--------------------------------------------------------------
+doOutlierProcessing=true
+--------------------------------------------------------------
+MAD_SCORE_CUTOFF=0
+Z_SCORE_CUTOFF=1.960
+--------------------------------------------------------------
+#     DOWN-SAMPLING
+--------------------------------------------------------------
+doDownSample=false
+DOWNSAMPLE=10
+--------------------------------------------------------------
+doFrameSelect=false
+FRAME_START=1
+FRAME_END=50
+--------------------------------------------------------------
+#     STATISTICAL THRESHOLDING
+--------------------------------------------------------------
+do_StatThresholds=false
+--------------------------------------------------------------
+VARIANCE_THRESHOLD=1.0
+SKEW_THRESHOLD=2.0
+KURTOSIS_THRESHOLD=6.0
+--------------------------------------------------------------
+#     PCA SUBSETS & RESOLUTIONS 
+--------------------------------------------------------------
+doAA=true
+doHA=true
+doBB=false
+doCA=false
+doATOM_LIST=false
+--------------------------------------------------------------
+doRESIDUE_INDIVIDUAL=false
+doRESIDUE_PAIRS=false
+--------------------------------------------------------------
+doHIERARCHICAL_AA=true
+doHIERARCHICAL_HA=true
+--------------------------------------------------------------
+doDIST_PAIRS=false
+--------------------------------------------------------------
+#     PCA STATISTICAL MODELS
+--------------------------------------------------------------
+doCORR=false
 doPCORR=false
+--------------------------------------------------------------
+#     SPARSIFICATION
+--------------------------------------------------------------
+doSPARSIFY=false
+--------------------------------------------------------------
+THRESHOLD_COV=0
+THRESHOLD_CORR=0.200
+THRESHOLD_PCORR=0.020
+THRESHOLD_RP_DIFF=0.500
+--------------------------------------------------------------
+#     NUMBER of PCA MODES
+--------------------------------------------------------------
+MODES_EIGEN_RESIDUE_PAIRS=9
+MODES_RESIDUE_INDIVIDUAL=10
+--------------------------------------------------------------
+MODES_EIGEN_RESIDUE_AA=9
+MODES_HIERARCHICAL_AA=20
+--------------------------------------------------------------
+MODES_EIGEN_RESIDUE_HA=9
+MODES_HIERARCHICAL_HA=20
+--------------------------------------------------------------
+MODES_ALL_ATOM=20
+MODES_HEAVY_ATOM=20
+MODES_BACKBONE=15
+MODES_ALPHA_CARBON=10
+--------------------------------------------------------------
+MODES_ATOMS_LIST=20
+MODES_DISTANCE_PAIRS=20
+--------------------------------------------------------------
+#     RESIDUE & ATOM SUBSETS
+--------------------------------------------------------------
+RESIDUE_LIST_ALL_ATOM=MechanisticSite.txt
+RESIDUE_LIST_HEAVY_ATOM=MechanisticSite.txt
+RESIDUE_LIST_BACKBONE=MechanisticSite.txt
+RESIDUE_LIST_ALPHA_CARBON=MechanisticSite.txt
+--------------------------------------------------------------
+RESIDUE_LIST_PAIRS=MechanisticSite.txt
+RESIDUE_LIST_INDIVIDUAL=MechanisticSite.txt
+--------------------------------------------------------------
+RESIDUE_LIST_HIERARCHICAL_AA=MechanisticSite.txt
+RESIDUE_LIST_HIERARCHICAL_HA=MechanisticSite.txt
+--------------------------------------------------------------
+ATOMS_LIST=MECHSITE_Most_Active_Atoms_List.txt
+ATOM_PAIRS_LIST=MECHSITE_Most_Active_Atoms_Pairs.txt
+--------------------------------------------------------------
+#     REDUCE DYNAMIC MATRICES (3N --> N)
+--------------------------------------------------------------
 doREDUCE=false
-doKPCA=true
+--------------------------------------------------------------
+#     FREE ENERGY LANDSCAPE
+--------------------------------------------------------------
 doFES=false
+--------------------------------------------------------------
+#     KERNEL PCA
+--------------------------------------------------------------
+doKPCA=false
+--------------------------------------------------------------
+MAX_KERNEL_FRAMES=300
+NUMBER_PCs_INPUT=2
+KERNEL_SHRINKAGE=0.025
+KPCA_SIGMA=0
+KPCA_SLOPE=0
+MULTIPLIER=100
+--------------------------------------------------------------
+Linear=false
+Degree_2_Poly=true
+Degree_3_Poly=true
+Degree_4_Poly=true
+XY_Poly=false
+Euclidean=true
+Mahalanobis=true
+Gaussian=true
+Sigmoid=true
+Log=true
+Circular=false
+Cauchy=false
+MI=true
+MI_KDE=true
+--------------------------------------------------------------
+#     MODE VISUALIZTION
+--------------------------------------------------------------
 doModeViz=false
-doPLOT=true
-# ------------------------------------------------------------
-#     NUMBER OF MODES
-# ------------------------------------------------------------
-NUMBER_OF_MODES_LOCAL=0
-NUMBER_OF_MODES_HIERARCHICAL_AA=9
-NUMBER_OF_MODES_HIERARCHICAL_HA=6
-NUMBER_OF_MODES_ALL_ATOM=5
-NUMBER_OF_MODES_HEAVY_ATOM=5
-NUMBER_OF_MODES_BACKBONE=5
-NUMBER_OF_MODES_ALPHA_CARBON=5
-NUMBER_OF_MODES_DISTANCE_PAIRS=0
-NUMBER_OF_MODES_VIZ=3
-# ------------------------------------------------------------
-#     RESIDUE LISTS
-# ------------------------------------------------------------
-RESIDUE_LIST_ALL_ATOM=residues10.txt
-RESIDUE_LIST_HEAVY_ATOM=residues10.txt
-RESIDUE_LIST_BACKBONE=residues10.txt
-RESIDUE_LIST_ALPHA_CARBON=residues10.txt
-RESIDUE_LIST_LOCAL=residues5.txt
-RESIDUE_LIST_HIERARCHICAL_AA=residues10.txt
-RESIDUE_LIST_HIERARCHICAL_HA=residues10.txt
-ATOM_PAIRS_LIST=atom_pairs.txt
-# ------------------------------------------------------------
-#     PCA and VIZ SETTINGS
-# ------------------------------------------------------------
-Z_SCORE_CUTOFF=3.000
-STABILITY_THRESHOLD=1.000E-12
+doEssentialViz=false
+MODES_VIZ=5
+--------------------------------------------------------------
+#     ADVANCED PARAMETERS
+--------------------------------------------------------------
+FLOOR=1.000E-16
+NOISE_LEVEL=1.000E-6
+KDE_RESOLUTION=20
+KDE_CELL=64
+KDE_MARGIN=0.250
+--------------------------------------------------------------
 VIZ_MODE_SCALE_FACTOR=0.250
-# ------------------------------------------------------------
-#     ALL-ATOM COORDS FILE
-# ------------------------------------------------------------
-ORIGINAL_PDB_COORDS=original_PDB_Coordinates_AA.txt
-# ------------------------------------------------------------
+LOG_FLOOR=1.000E-4
+numberModeCycles=1
+numberModeFrames=10
+numberModeComponents=10
+numberEssentialCycles=3
+numberEssentialFrames=30
+--------------------------------------------------------------
+READ_PDBS_FILTER_STRING=.pdb
+--------------------------------------------------------------
+#     OUTPUT CONTROL
+--------------------------------------------------------------
+verbose=true
+doOutputCoordinates=false
+--------------------------------------------------------------

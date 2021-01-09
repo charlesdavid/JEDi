@@ -1,0 +1,30 @@
+# Lines beginning with "#" are comments
+# ------------------------------------------------------------
+#     DESCRIPTION, DIRECTORY, COORDINATES MATRIX
+# ------------------------------------------------------------
+DESCRIPTION=TEST
+OUT_DIR=C:\Users\cflcyd\eclipse-workspace\JEDi_Dev\test\
+PDB_COORDS=C:\Users\cflcyd\eclipse-workspace\JED_Release\JED_Test\Single\original_PDB_Coordinates.txt
+# ------------------------------------------------------------
+#    The column in the coordinates matrix to use as the reference frame: Numbering starts with 1
+# ------------------------------------------------------------
+REFERENCE_COL=1
+# ------------------------------------------------------------
+#    Outlier processing is MUTUALLY EXCLUSIVE
+#       Choose Remove OR select, NOT both
+# ------------------------------------------------------------
+REMOVE_OUTLIERS=true
+SELECT_OUTLIERS=false
+# ------------------------------------------------------------
+#       Choose Z OR MAD, NOT both (set to 0 to turn off)
+#          If both are > 0, then the default is Z-score
+# ------------------------------------------------------------
+MAD_Score=0
+Z_Score=1.96
+# ------------------------------------------------------------
+#    Compress output files
+#       Valid Methods: 'bz2' or 'gz' ONLY
+# ------------------------------------------------------------
+COMPRESS=true
+COMPRESS_METHOD=bz2
+# ------------------------------------------------------------

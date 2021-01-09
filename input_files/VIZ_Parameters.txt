@@ -1,0 +1,28 @@
+# Lines beginning with "#" are comments
+# --------------------------------------------------------------------------------------
+#     DESCRIPTION, DIRECTORY, REFERENCE_PDB, EIGENVECTORS, EIGENVALUES
+# --------------------------------------------------------------------------------------
+DESCRIPTION=myosinVchainsAC
+OUT_DIR=C:\Users\cflcyd\eclipse-workspace\JEDi_Dev\test\
+REFERENCE_PDB=C:\Users\cflcyd\eclipse-workspace\JEDi_Release\test\MyosinV\JEDi_RESULTS_Test_Chains_A_C\ss_796_12950_Hierarchical_AA_RMSF_edited.pdb
+EIGENVECTORS=C:\Users\cflcyd\eclipse-workspace\JEDi_Release\test\MyosinV\JEDi_RESULTS_Test_Chains_A_C\All_Atom_Hierarchical_PCA\ss_796_top_5_Convoluted_Eigenvectors.txt
+EIGENVALUES=C:\Users\cflcyd\eclipse-workspace\JEDi_Release\test\MyosinV\JEDi_RESULTS_Test_Chains_A_C\All_Atom_Hierarchical_PCA\ss_796_eigenvalues_COV.txt
+# --------------------------------------------------------------------------------------
+doESSENTIAL=true
+doINDIVIDUAL=true
+# --------------------------------------------------------------------------------------
+modelPCA=COV
+# --------------------------------------------------------------------------------------
+mode_amplitude=0.250
+threshold_low=0.000
+threshold_high=0.000
+numberOfFrames=20
+numberOfCycles=1
+numberOfFramesEssential=30
+numberOfCyclesEssential=3
+# --------------------------------------------------------------------------------------
+FLOOR=1.00E-3
+MODE_START=1
+MODE_END=5
+MODE_SCALE_FACTOR=0.250
+# --------------------------------------------------------------------------------------
