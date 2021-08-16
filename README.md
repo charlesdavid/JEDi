@@ -66,10 +66,14 @@
 
 * Please suggest new features by submitting a new issue tagged with NEW FEATURE or ENHANCEMENT
 
-* Please contact me if you wish to become a collaborator on this software:  
+* Please contact me if you wish to become a collaborator on this software:
+
+* Check out this link for a demonstration video for using JEDi:
+
+  * https://www.youtube.com/watch?v=3I08oGQShwg
 
 Charles David: charles.david@plantandfood.co.nz 
 
-##### Last Update: December, 2020
+##### Last Software Update: December, 2020
 * New Java Docs
 * New executable JAR files
